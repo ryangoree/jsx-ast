@@ -4,6 +4,7 @@ const yargs = require('yargs')
 const { hideBin } = require('yargs/helpers')
 const path = require('path')
 const parse = require(path.resolve(__dirname, '../index'))
+const fs = require('fs')
 
 yargs(hideBin(process.argv))
   .command(

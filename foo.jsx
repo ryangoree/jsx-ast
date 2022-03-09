@@ -1,5 +1,6 @@
 export default function Foo() {
+  const key = 4
   return (
-    <h1>Test</h1>
+    <h1 id={key}>Test</h1>
   )
 }
